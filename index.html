@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <script src="index.js"></script>
+
+        <title>Encriptador/Desencriptador de texto</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1 id="title">En ésta página puedes encriptar un mensaje, así como desencriptarlo!</h1>
+
+        </header>
+
+        <main>
+
+            <input type="text" id="entrada" placeholder="Ingrese su mensaje">
+
+            <button type="button" onclick="encriptarMensaje()" class="button" id="encriptar" >Encriptar</button>
+    
+            <button type="button" onclick="desencriptarMensaje()" class="button" id="desencriptar">Desencriptar</button>
+
+            <div>
+    
+                <textarea disabled id="result">No se encontró ningún mensaje! Por favor ingresa tu mensaje</textarea>
+    
+                <button class="button" onclick="copiarResultado()" id="copiar">Copiar</button>
+    
+            </div>
+
+        </main>
+
+        <footer><a href="https://github.com/Pk0n">Diseñado y desarrollado por Miguel Sebastian Olivera Gochez</a></footer>
+
+    </body>
+    
+</html>
