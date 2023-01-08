@@ -43,32 +43,16 @@ function desencriptarMensaje()
         alert("Por favor ingrese un mensaje a desencriptar!");
     }
 
-    for(i=0; mensajeEncriptado.includes("enter") || mensajeEncriptado.includes("imes") || mensajeEncriptado.includes("ai") || mensajeEncriptado.includes("ober") || mensajeEncriptado.includes("ufat"); i++)
-    {
-        if(mensajeEncriptado.includes("enter"))
-        {
-        mensajeEncriptado = mensajeEncriptado.replaceAll("enter", "e");
-        }
-        else if(mensajeEncriptado.includes("imes"))
-        {
-            mensajeEncriptado = mensajeEncriptado.replaceAll("imes", "i");
-        }
-        else if(mensajeEncriptado.includes("ai"))
-        {
-            mensajeEncriptado = mensajeEncriptado.replaceAll("ai", "a");
-        }
-        else if(mensajeEncriptado.includes("ober"))
-        {
-            mensajeEncriptado = mensajeEncriptado.replaceAll("ober", "o");
-        }
-        else if(mensajeEncriptado.includes("ufat"))
-        {
-            mensajeEncriptado = mensajeEncriptado.replaceAll("ufat", "u");
-        }
-    }
+    mensajeEncriptado = mensajeEncriptado.replaceAll("enter", "e");
+    mensajeEncriptado = mensajeEncriptado.replaceAll("imes", "i");
+    mensajeEncriptado = mensajeEncriptado.replaceAll("ober", "o");
+    mensajeEncriptado = mensajeEncriptado.replaceAll("ai", "a");
+    mensajeEncriptado = mensajeEncriptado.replaceAll("ufat", "u");
+
     var mensajeDesencriptado = document.getElementById("result");
     mensajeDesencriptado.textContent = mensajeEncriptado;
 }
+    
 
 function copiarResultado()
 {
