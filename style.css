@@ -140,14 +140,20 @@ footer:hover
     text-decoration: wavy underline;
 }
 
-@media screen and (max-width: 675px) 
+@media screen and (max-width: 650px) 
 {
+    #title
+    {
+        font-size: 18px;
+    }
+
     input
     {
       box-sizing: border-box;
       width: 85%;
       height: 25%;
-      margin: 5% 5%;
+      margin: 7% 5%;
+      font-size: 15px;
     }
 
     #result
@@ -159,11 +165,13 @@ footer:hover
         top: 38%;
         margin: 5% 5% 0 5%;
         left: 0;
+        font-size: 15px;
     }
 
     .button
     {
-        font-size: 14px;
+        font-size: 12px;
+        top: 74%;
     }
 
     #desencriptar
@@ -174,5 +182,10 @@ footer:hover
     #copiar
     {
         margin-left: 69%;
+    }
+
+    footer
+    {
+        font-size: 11px;
     }
 }
