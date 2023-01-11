@@ -145,13 +145,14 @@ footer:hover
     #title
     {
         font-size: 18px;
+        margin-top: 6px;
     }
 
     input
     {
       box-sizing: border-box;
       width: 85%;
-      height: 25%;
+      height: 22%;
       margin: 7% 5%;
       font-size: 15px;
     }
@@ -161,7 +162,7 @@ footer:hover
         position: absolute;
         box-sizing: border-box;
         width: 85%;
-        height: 25%;
+        height: 22%;
         top: 38%;
         margin: 5% 5% 0 5%;
         left: 0;
@@ -171,7 +172,7 @@ footer:hover
     .button
     {
         font-size: 12px;
-        top: 74%;
+        top: 75%;
     }
 
     #desencriptar
@@ -186,6 +187,6 @@ footer:hover
 
     footer
     {
-        font-size: 11px;
+        font-size: 12px;
     }
 }
